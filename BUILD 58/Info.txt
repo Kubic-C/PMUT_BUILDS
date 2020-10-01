@@ -4,7 +4,7 @@ This text is meant for build 58 of PMUT
 
 current commands :
 
-print -a[ x... ]- prints out a string of characters(just words)
+[PMUT]>print -a[ x... ]- prints out a string of characters(just words)
 x... = how many words you want to put in there(to go in the next line just put comma)
 
 [PMUT]>exit(or q) - exits PMUT safely; recommended for exiting PMUT, becuase it closes & cleans up the librarys PMUT uses
@@ -20,18 +20,18 @@ z - character
 
 [PMUT]>end_timer - ends stop watch
 
-protocol TCP, or UDP
+[PMUT]>clear = clears the screen, NOTE: actually just moves the scroll
 
-NOTE : THESE SERVERS ARE ONLY ON THE LAN, NOT ON WAN(LOCAL ONLY)
-//             VVV networking protocol, t
+acceptble protocols : TCP, and UDP
+
 [PMUT]>make_server -t protocol -a[ x, y, z, w(optional) ]
-x - IP of your server; note currently IPV4 adresses are the only acceptle ones
+x - IP of your server, when a client connects has to the same IPV( i am working on it)
 y - port number of your server
 z - Name of your server
 w(optional) - The first initial message sent to a client when one connects
 
-[PMUT]>run_server -t protocol -a[ x, y ]
+[PMUT]>run_server -t tcp -a[ x, y ]
 x - The mode you want to run your server in, so single or multi, Single is the only one avalible
 y - The name of the server you want to run
 
-[PMUT]>print -t tcp_server
+[PMUT]>print -t tcp_server = Prints all tcp servers
