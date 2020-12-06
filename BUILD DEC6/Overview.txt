@@ -1,0 +1,48 @@
+PMUT, Build(Dec 6 2020 12:26:02)
+
+discord server -> https://discord.gg/maEbuVQ
+
+"bugs were made, bugs were fixed."
+
+This the first release of OpenGL PMUT, their will be some slight
+unintendend behavior. If you find a bug or something that seems
+off report it to the discord server.
+
+Where in the hell is the network library?
+
+Rewriting it to make it more cross-platform
+friendly. :(
+
+What are the conversion thingys?
+
+when passing a argument to a function
+you need the argument and the conversion type.
+for example:
+
+print -a[ Hello World{string}]
+
+will output into the console with:
+
+Hello World
+
+So how does the console work?
+
+The console itself uses batch rendering with
+a correlating text output buffer. The text out-
+put buffer itself is made up of a strings
+with a output wrapper, so the string can
+be a permanent string, static string, or
+a non-static string.
+
+permanent strings, only have to be added once
+to the output buffer and can never be cleared from
+the screen. Strings like the PMUT name and opengl context.
+
+static strings, only have to be added once,
+however can be cleared by pressing the F1 key.
+Strings like the output in the console
+
+non-static strings, have to be added to the
+output buffer every frame. For example
+like the "frame time" string is a non-static
+string.

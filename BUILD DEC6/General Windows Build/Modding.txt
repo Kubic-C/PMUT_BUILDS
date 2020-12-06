@@ -1,0 +1,31 @@
+PMUT, Build(Dec 6 2020 12:26:02)
+
+discord server -> https://discord.gg/maEbuVQ
+
+modding PMUT?
+
+although to the extent to which you can mod PMUT is limited,
+there is still some stuff to mod.
+
+what can I mod?
+
+so far you can change the bitmap that PMUT uses,
+the font shader(GPU program), and the ICON of PMUT.
+
+some tips!:
+
+1. When changing PMUT's font files remeber they need to
+be named PMUT_FONT6, before you start swapping out
+fonts keep in mind that having oversized characters WILL
+end up in weird rendering things happening(characters going
+offscreen, colliding with other characters, etc.).
+Here is the bitmap generator: https://libgdx.badlogicgames.com/nightlies/runnables/runnable-hiero.jar
+Also if you ever get stuck on why it is not
+working look at PMUT's default font files.
+
+2. When changing PMUT's font shaders keep in mind that
+PMUT uses bath rendering which in other words, means
+that it renders everything in one go, also the lines
+that start with '@' are the names of the shader program.
+So changing them will resault in PMUT not knowing where
+the programs are, so don't change them.

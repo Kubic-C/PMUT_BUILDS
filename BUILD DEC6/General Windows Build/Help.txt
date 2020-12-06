@@ -1,0 +1,20 @@
+PMUT, Build(Dec 6 2020 12:26:02)
+
+discord server -> https://discord.gg/maEbuVQ
+
+general commands:
+
+"exit" or 'q' : this will exit the console
+
+"info" : this will print some info about going to this file and also show the discord link
+
+"print" -a[ x{string} ] : this will print a singular static string of characters
+
+rendering commands:
+
+"set_interval" -a[ x{int} ] : 
+this sets the swap interval, higher numbers means less frames
+lower numbers means more frames, the lowest you can go is 0(this makes the GPU go usage go crazy).
+The default is 2.
+
+
