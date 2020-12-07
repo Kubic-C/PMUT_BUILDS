@@ -5,7 +5,7 @@ discord server -> https://discord.gg/maEbuVQ
 "bugs were made, bugs were fixed."
 
 This the first release of OpenGL PMUT, their will be some slight
-unintendend behavior. If you find a bug or something that seems
+unintended behavior. If you find a bug or something that seems
 off report it to the discord server.
 
 Where in the hell is the network library?
@@ -46,3 +46,5 @@ non-static strings, have to be added to the
 output buffer every frame. For example
 like the "frame time" string is a non-static
 string.
+
+
