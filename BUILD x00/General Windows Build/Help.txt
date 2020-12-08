@@ -1,0 +1,26 @@
+PMUT, Build(x00)
+
+discord server -> https://discord.gg/maEbuVQ
+
+x, y, or z, is where you want your arguments to be
+for example:
+"{print} [str:x]" -> "{print} [str:Hello world]"
+
+general commands:
+
+"{exit}": this will exit the console
+
+"{info}": this will print some info about going to this file and also show the discord link
+
+"{print} [str:x]": this will print a singular static string of characters
+
+"{print two} [str:x] [str2:y]": this will print two static string of characters on different lines
+
+rendering commands:
+
+"{swap interval} [i:x]" : 
+this sets the swap interval, higher numbers means less frames
+lower numbers means more frames, the lowest you can go is 0(this makes the GPU go usage go crazy).
+The default is 2. put the number you want where x is!
+
+
