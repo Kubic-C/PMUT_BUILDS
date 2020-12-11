@@ -1,4 +1,4 @@
-PMUT, Build(x00)
+PMUT, Build(Dec 10 2020 18:45:52)
 
 discord server -> https://discord.gg/maEbuVQ
 
@@ -24,3 +24,17 @@ lower numbers means more frames, the lowest you can go is 0(this makes the GPU g
 The default is 2. put the number you want where x is!
 
 
+Keyboard shortcuts:
+
+alt+backspace will clear all of your input
+
+pressing f1 will clear all static strings
+
+pressing f2 will test static strings
+
+pressing f3 will test non-static strings
+
+pressing the up arrow will replace the current input with the last input
+
+ctrl+c will copy what ever is in the input buffer into the clipboard
+ctrl+v will copy what ever is in the clipboard into the input buffer

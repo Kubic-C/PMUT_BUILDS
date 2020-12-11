@@ -1,0 +1,27 @@
+PMUT, Build(Dec 10 2020 18:45:52)
+
+discord server -> https://discord.gg/maEbuVQ
+
+"bugs were made, bugs were fixed."
+
+What are the changes!
+
+1. all commands are now called
+on a seperate to improve rendering 
+time slightly for commands that take
+longer to execute.
+
+2. added some keyboard shortcuts for
+quality of life.
+
+3.made some other minor fixes
+
+What are the plans for the build after this?
+
+The majority of the networking features will
+be added back, I had to remove them since
+they were dependent on ms windows. So the new
+networking library is ASIO standalone(not boost
+dependent).
+
+
