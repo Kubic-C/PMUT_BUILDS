@@ -1,5 +1,4 @@
 # PMUT_BUILDS
-THE FOLLOWING BUILDS OF PMUT ARE NOT INCLUDED IN ANY LICENSE: Build 55, Build 58, Build 2020 dec6, Build 2020 dec10
 
 PMUT is a general purpose console, it will have file, and app manipulation(changing data or removing). As well as networking.
 Since it is general purpose it will soon have more planned.
